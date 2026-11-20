@@ -1,5 +1,7 @@
 # Mars Rover 2
 
+[![CI](https://github.com/siri404/mars-rover-2/actions/workflows/ci.yml/badge.svg)](https://github.com/siri404/mars-rover-2/actions/workflows/ci.yml)
+
 A Mars Rover simulation in TypeScript.
 
 ## Requirements
