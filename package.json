@@ -1,0 +1,24 @@
+{
+  "name": "mars-rover-2",
+  "version": "1.0.0",
+  "description": "Mars Rover simulation in TypeScript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts input.txt",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.1"
+  }
+}
